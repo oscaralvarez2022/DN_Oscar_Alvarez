@@ -1,0 +1,10 @@
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\bin\Debug\OOP.ConsoleExample.exe.config
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\bin\Debug\OOP.ConsoleExample.exe
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\bin\Debug\OOP.ConsoleExample.pdb
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\obj\Debug\OOP.ConsoleExample.csproj.AssemblyReference.cache
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\obj\Debug\OOP.ConsoleExample.csproj.CoreCompileInputs.cache
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\obj\Debug\OOP.ConsoleExample.exe
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\obj\Debug\OOP.ConsoleExample.pdb
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\bin\Debug\AudioManager.dll
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\bin\Debug\AudioManager.pdb
+C:\Users\moises.alvarez\source\repos\OOP.ConsoleExample\OOP.ConsoleExample\obj\Debug\OOP.ConsoleExample.csproj.CopyComplete
