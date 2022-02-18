@@ -11,7 +11,9 @@ function printList() {
 
     ul += "</ul>";
 
-    alert(ul);
     var element = document.getElementById("list");
     element.innerHTML = ul;
 }
+
+
+
