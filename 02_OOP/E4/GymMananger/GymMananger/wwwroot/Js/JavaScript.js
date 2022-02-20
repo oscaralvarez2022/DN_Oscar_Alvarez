@@ -1,23 +1,40 @@
 ﻿function onKeyUp(event,action) {
     var keycode = event.keyCode;
     if (keycode == '13') {
-       showModal(action); 
+        document.getElementById("button"+action).click();
     }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    var myModal = document.getElementById("myModal");
 
-    myModal.addEventListener("show.bs.modal", function (event) {
+    if (document.getElementById("buttonOUT")) {
+        var btnOUT = document.getElementById("buttonOUT");
+        btnOUT.addEventListener("click", function () {
 
-        // Change modal title
-        document.getElementById('modalBody').innerHTML = " </p>";
-        //myModal.querySelector(".modal-body").innerHTML = "<p>" + action + " register by " + memberId + " " + fullDate + " </p>";;
-    });
+            var myModal = new bootstrap.Modal(document.getElementById("myModalOUT"));
+            var myModalOUT = document.getElementById("myModalOUT");
+
+            myModalOUT.querySelector(".modal-body").innerHTML = getDataAttendance("OUT");
+            myModal.show();
+            setTimeout(function () { myModal.hide(); }, 3000);
+        });
+    }
+
+    if (document.getElementById("buttonIN")) {
+        var btnIN = document.getElementById("buttonIN");
+        btnIN.addEventListener("click", function () {
+            var myModal = new bootstrap.Modal(document.getElementById("myModalIN"));
+            var myModalIN = document.getElementById("myModalIN");
+
+            myModalIN.querySelector(".modal-body").innerHTML = getDataAttendance("IN");
+            myModal.show();
+
+            setTimeout(function () { myModal.hide(); }, 3000);
+        });
+    }
 });
 
-/*
-function showModal(action) {
+function getDataAttendance(action) {
     var fullToday = new Date();
     var todayDate = fullToday.getDate() + '-' + (fullToday.getMonth() + 1) + '-' + fullToday.getFullYear();
     var todayTime = fullToday.getHours() + ':' + fullToday.getMinutes() + ':' + fullToday.getSeconds();
@@ -25,17 +42,7 @@ function showModal(action) {
 
     var memberId = document.getElementById('memberId').value;
 
-    document.getElementById('modalBody').innerHTML = "<p>" + action + " register by " + memberId + " " + fullDate + " </p>";
-
-    var myModal = new bootstrap.Modal(document.getElementById('myModal'));
-    myModal.toggle();
-
-    setTimeout('closeModal()', 5000)
-   
+   return  "<p>" + action + " register by " + memberId + " " + fullDate + " </p>";
 }
 
-function closeModal() {
-    myModal.toggle()
-}
-*/
 
