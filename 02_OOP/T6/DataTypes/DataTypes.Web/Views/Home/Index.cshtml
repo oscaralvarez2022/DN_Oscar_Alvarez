@@ -1,0 +1,127 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+<html>
+<head>
+    <title>JavasScript DataTypes</title>
+    <style>
+        button{
+            padding: 10px;
+        }
+
+        .greenButton{
+            background-color: #00ff21;
+        }
+
+        .redButton {
+            background-color: #ff0000;
+        }
+
+        /*bideo styles*/
+        * {
+            margin: 0; padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #container {
+            overflow: hidden;
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+        }
+
+        #background_video {
+            position: absolute;
+
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+
+            object-fit: cover;
+            height: 100%; width: 100%;
+        }
+
+        #video_cover {
+            position: absolute;
+            width: 100%; height: 100%;
+            background: url('/lib/bideo/video_cover.jpeg') no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        /* Demo page specific styles */
+
+        body {
+            text-align: center;
+            font-family: 'proxima-nova', Helvetica;
+        }
+
+        #container {
+            height: 100%;
+        }
+
+        #overlay {
+            position: absolute;
+            top: 0; right: 0; left: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+        }
+
+        #main_content {
+            z-index: 2;
+            position: absolute;
+            display: inline-block;
+            /* Vertical center */
+            top: 50%;
+            left: 35%;
+            transform: translateY(-50%);
+        }
+
+        /*finish bideo style*/
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <video id="background_video" loop muted></video>
+        <div id="video_cover"></div>
+        <div id="overlay"></div>
+
+
+        <section id="main_content">
+            <button id="button1" name="testButton1" class="btn greenButton">Toast!</button>
+            <button id="button2" name="testButton2" class="btn greenButton">Click me!</button>
+            <button id="button3" name="testButton3" class="btn greenButton">Click me!</button>
+            <button name="testButton4" class="btn greenButton">Click me!</button>
+            <button name="testButton5" class="btn greenButton">Click me!</button>
+            <button name="testButton6" class="btn greenButton">Click me!</button>
+            <button name="testButton7" class="btn greenButton">Click me!</button>
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <td>Button Name</td>
+                        <td>Clicked On</td>
+                    </tr>
+                </thead>
+                <tbody id="sampleTableBody">
+                </tbody>
+            </table>
+        </section>
+    </div>
+    
+
+    <script src="~/lib/bideo/toast.min.js"></script>
+    <script src="~/lib/bideo/bideo.js"></script>
+    <script src="~/lib/moment.min.js"></script>
+    <script src="~/dataTypes.js"></script>
+</body>
+</html>
