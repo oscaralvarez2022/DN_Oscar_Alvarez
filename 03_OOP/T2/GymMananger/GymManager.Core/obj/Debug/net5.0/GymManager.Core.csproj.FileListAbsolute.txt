@@ -1,0 +1,11 @@
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\bin\Debug\net5.0\GymManager.Core.deps.json
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\bin\Debug\net5.0\GymManager.Core.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\bin\Debug\net5.0\ref\GymManager.Core.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\bin\Debug\net5.0\GymManager.Core.pdb
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\obj\Debug\net5.0\GymManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\obj\Debug\net5.0\GymManager.Core.AssemblyInfoInputs.cache
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\obj\Debug\net5.0\GymManager.Core.AssemblyInfo.cs
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\obj\Debug\net5.0\GymManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\obj\Debug\net5.0\GymManager.Core.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\obj\Debug\net5.0\ref\GymManager.Core.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T2\GymMananger\GymManager.Core\obj\Debug\net5.0\GymManager.Core.pdb
