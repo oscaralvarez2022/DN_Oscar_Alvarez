@@ -257,6 +257,29 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "GymManager.ApplicationServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "GymManager.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GymManager.ApplicationServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GymManager.ApplicationServices.dll": {}
+        }
+      },
+      "GymManager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GymManager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GymManager.Core.dll": {}
+        }
       }
     }
   },
@@ -728,10 +751,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "GymManager.ApplicationServices/1.0.0": {
+      "type": "project",
+      "path": "../GymManager.ApplicationServices/GymManager.ApplicationServices.csproj",
+      "msbuildProject": "../GymManager.ApplicationServices/GymManager.ApplicationServices.csproj"
+    },
+    "GymManager.Core/1.0.0": {
+      "type": "project",
+      "path": "../GymManager.Core/GymManager.Core.csproj",
+      "msbuildProject": "../GymManager.Core/GymManager.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "GymManager.ApplicationServices >= 1.0.0",
+      "GymManager.Core >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.14"
     ]
   },
@@ -741,9 +776,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymMananger\\GymMananger.csproj",
-      "projectName": "GymMananger",
-      "projectPath": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymMananger\\GymMananger.csproj",
+      "projectUniqueName": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymMananger\\GymMananger.Web.csproj",
+      "projectName": "GymMananger.Web",
+      "projectPath": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymMananger\\GymMananger.Web.csproj",
       "packagesPath": "C:\\Users\\moises.alvarez\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymMananger\\obj\\",
       "projectStyle": "PackageReference",
@@ -761,7 +796,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymManager.ApplicationServices\\GymManager.ApplicationServices.csproj"
+            },
+            "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymManager.Core\\GymManager.Core.csproj": {
+              "projectPath": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymManager.Core\\GymManager.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

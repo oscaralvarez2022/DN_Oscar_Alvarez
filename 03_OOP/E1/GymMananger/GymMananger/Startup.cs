@@ -1,3 +1,4 @@
+using GymManager.ApplicationServices.Members;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -17,6 +18,8 @@ namespace GymMananger
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+            services.AddTransient<IMembersAppService, MembersAppService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

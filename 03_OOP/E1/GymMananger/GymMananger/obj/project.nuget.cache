@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RG0Qa28Ug+wDW2bVDe7JXX/t3qmtpNnUbEhSZ25XrTDk9S3ayx0TlpdIvuhwY4E0HvLN20kxI5nS8hTRGTW+ag==",
+  "dgSpecHash": "+m0xgr02ZWlrUgqDhoIX4Ky2QLqdAJtpoZy4SSN9AMaIVpX3j5OzUYyPBceyongrB9333iVDTiu5L9imZ65wTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymMananger\\GymMananger.csproj",
+  "projectFilePath": "C:\\Users\\moises.alvarez\\Documents\\GitHub\\DN_Oscar_Alvarez\\03_OOP\\E1\\GymMananger\\GymMananger\\GymMananger.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\moises.alvarez\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.14\\microsoft.aspnetcore.mvc.razor.extensions.5.0.14.nupkg.sha512",
     "C:\\Users\\moises.alvarez\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.14\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.14.nupkg.sha512",

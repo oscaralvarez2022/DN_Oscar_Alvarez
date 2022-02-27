@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GymManager.ApplicationServices.Members;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,18 @@ namespace GymMananger.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IMembersAppService _memberAppServices;
+        public HomeController(IMembersAppService memberAppServices)
+        {
+            _memberAppServices = memberAppServices;
+        }
+
         public IActionResult Index()
         {
-            return View();
+
+            var members = _memberAppServices.GetMembers();
+
+            return View(members);
         }
 
     }
