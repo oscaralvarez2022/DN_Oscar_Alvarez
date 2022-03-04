@@ -1,0 +1,11 @@
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\bin\Debug\net5.0\Api.Entities.deps.json
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\bin\Debug\net5.0\Api.Entities.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\bin\Debug\net5.0\ref\Api.Entities.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\bin\Debug\net5.0\Api.Entities.pdb
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\obj\Debug\net5.0\Api.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\obj\Debug\net5.0\Api.Entities.AssemblyInfoInputs.cache
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\obj\Debug\net5.0\Api.Entities.AssemblyInfo.cs
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\obj\Debug\net5.0\Api.Entities.csproj.CoreCompileInputs.cache
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\obj\Debug\net5.0\Api.Entities.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\obj\Debug\net5.0\ref\Api.Entities.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T6\WebApi.WindowsClient\Api.Entities\obj\Debug\net5.0\Api.Entities.pdb
