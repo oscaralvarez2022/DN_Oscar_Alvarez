@@ -1,0 +1,14 @@
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\bin\Debug\net5.0\GymManager.DataAccess.deps.json
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\bin\Debug\net5.0\GymManager.DataAccess.runtimeconfig.json
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\bin\Debug\net5.0\GymManager.DataAccess.runtimeconfig.dev.json
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\bin\Debug\net5.0\GymManager.DataAccess.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\bin\Debug\net5.0\ref\GymManager.DataAccess.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\bin\Debug\net5.0\GymManager.DataAccess.pdb
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\GymManager.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\GymManager.DataAccess.AssemblyInfoInputs.cache
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\GymManager.DataAccess.AssemblyInfo.cs
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\GymManager.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\GymManager.DataAccess.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\ref\GymManager.DataAccess.dll
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\GymManager.DataAccess.pdb
+C:\Users\moises.alvarez\Documents\GitHub\DN_Oscar_Alvarez\03_OOP\T7\GymMananger\GymManager.DataAccess\obj\Debug\net5.0\GymManager.DataAccess.genruntimeconfig.cache
