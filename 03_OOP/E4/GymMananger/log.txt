@@ -1,0 +1,4 @@
+2022-03-16 09:28:23.236 -06:00 [INF] Mensaje Information
+2022-03-16 09:28:23.241 -06:00 [WRN] Mensaje Warning
+2022-03-16 09:28:23.241 -06:00 [ERR] Mensaje Error
+2022-03-16 09:28:23.241 -06:00 [FTL] Mensaje Fatal

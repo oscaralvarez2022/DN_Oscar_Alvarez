@@ -2,17 +2,16 @@
 using GymManager.Core.Members;
 using GymMananger.Web.Models;
 using Microsoft.AspNetCore.Mvc;
-using System;
+using Serilog;
+using Serilog.Events;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace GymMananger.Controllers
 {
     public class MembersController : Controller
     {
         private readonly IMembersAppService _memberAppServices;
-        public MembersController (IMembersAppService memberAppServices)
+        public MembersController(IMembersAppService memberAppServices)
         {
             _memberAppServices = memberAppServices;
         }
@@ -26,7 +25,24 @@ namespace GymMananger.Controllers
             viewModel.NewMembersCount = 2;
             viewModel.Members = members;
 
-            FileLogger.Log("You Enter to Member option");
+           
+
+            var logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                //.WriteTo.Console(LogEventLevel.Information)
+                .WriteTo.File("log.txt", LogEventLevel.Information)
+                .CreateLogger();
+
+            logger.Verbose("Mensaje Verbose");
+            logger.Debug("Mensaje Debug");
+            logger.Information("Mensaje Information");
+            logger.Warning("Mensaje Warning");
+            logger.Error("Mensaje Error");
+            logger.Fatal("Mensaje Fatal");
+
+
+            //FileLogger.Log("You Enter to Members option");
+
 
             return View(viewModel);
         }
@@ -36,9 +52,9 @@ namespace GymMananger.Controllers
             return View();
         }
 
-        
+
         //...
 
-        
+
     }
 }
