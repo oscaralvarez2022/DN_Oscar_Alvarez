@@ -1,0 +1,1 @@
+call inventary(2);
